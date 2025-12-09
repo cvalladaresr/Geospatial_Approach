@@ -1,0 +1,19 @@
+name: tfm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - geopandas
+  - shapely
+  - rasterio
+  - matplotlib
+  - scikit-learn
+  - xgboost
+  - jupyter
+  - seaborn
+  - joblib
+  - pip
+  - pip:
+    - pyproj
