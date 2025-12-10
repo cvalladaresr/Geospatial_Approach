@@ -1,7 +1,7 @@
-# 📘 Análisis de Emisiones mediante Teledetección para el País Vasco
-### Trabajo Final del Máster – Versión 0
+# 📘 Measuring economic activity from a geospatial approach
+### Versión 0
 
-Este repositorio contiene el código, datos públicos y material asociado al trabajo final de máster cuyo objetivo es **estimar emisiones y producción industrial mediante teledetección y modelos de machine learning**, aplicados al caso del **País Vasco**.
+Este repositorio contiene el código, datos públicos y material asociado al trabajo cuyo objetivo es **abordar la detección de plantas y la estimación de su actividad económica a partir de datos geoespaciales utilizando modelos de Deep Learning y Machine Learning**, aplicados al caso del **País Vasco**.
 
 El proyecto incluye:
 - Construcción de una grilla territorial (1 km²)
@@ -17,7 +17,7 @@ El proyecto incluye:
 Proyecto-TFM/
 │
 ├── README.md
-├── LICENSE                  # (Opcional)
+├── LICENSE                  
 ├── .gitignore
 │
 ├── paper/
@@ -35,7 +35,7 @@ Proyecto-TFM/
 ├── data/
 │   ├── raw/
 │   ├── processed/
-│   └── private/             # Datos sensibles (excluidos con .gitignore)
+│   └── private/             
 │
 ├── src/
 │   ├── utils/
@@ -58,7 +58,7 @@ Proyecto-TFM/
 Archivos geoespaciales y series mensuales de emisiones en `data/raw/` (siempre que sean de libre redistribución).
 
 ### Datos NO incluidos
-Los datos empresariales usados para entrenamiento y validación **no pueden ser publicados**. Mantenerlos localmente en `data/private/` y añadirlos a `.gitignore`.
+Los datos empresariales usados para entrenamiento y validación **no pueden ser publicados**. 
 
 ## Reproducibilidad
 
@@ -80,8 +80,6 @@ pip install -r requirements.txt
 
 3. Ejecutar notebooks en orden: notebooks/0.1 → ... → notebooks/2
 
-## Licencia
-(Seleccionar e incluir, por ejemplo MIT o CC-BY)
 
 ## Contacto
 Camilo – Economista & Data Scientist
